@@ -1,5 +1,35 @@
 # DiskAnalyzer
 
+Last update: 12/10/2022
+
+Fixed an issue with missing files
+
+Old files and data have been modified to work and be compatible with .NET Framework 4.8
+
+A new tool has been added to check, repair and detect hard disk problems
+
+To fix the problem of missing files, try to follow these steps:
+
+1 - You will download the project ok
+
+When you open the project, you get this error
+
+Control.dll Reference missing or not found
+
+Just all you have to do is you will find the Control.dll file
+
+It is also attached to the project file, and you also added it to your rar file
+
+Then you will add this file to the Reference section of the project or drag it there
+
+If you see this error:
+
+The parser reported the following error 'Invalid symbol kind: Namespace'. Please look in the Task List for possible errors.
+
+All you have to do is go to the project and then to the Properties option
+
+This interface will appear to you directly. All you have to do is change the old .NET version to the latest version (or the latest version that you have on your device). You can download newer versions from the Microsoft website, just choose from the (Target Framework) option the latest version of .NET Framework installed You have agreed to switch and these problems will be solved
+
 Introduction
 
 Disk Analyzer enables you to understand how much space the files and directories on your disk have taken up, and helps you find files and folders that you no longer use. The tool analyses your disk drives and collects statistics of directory sizes and files sizes by type, which you can view as overview charts and details tables.
